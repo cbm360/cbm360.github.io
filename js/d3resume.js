@@ -74,7 +74,7 @@ $(function () {
 
         nodeEnter.append("circle")
             .attr("r", 1e-6)
-            .style("fill", function(d) { return d._children ? "rgb(254,209,54)" : "#fff"; });
+            .style("fill", function(d) { return d._children ? "#16EA1A" : "#fff"; });
 
         nodeEnter.append("text")
             .attr("x", function(d) { return d.children || d._children ? -20 : 10; })
