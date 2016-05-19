@@ -70,15 +70,16 @@
     }
 
     .jumbotron {
-        max-height: 526px;
+        max-height: 100vh;
+        min-height: 100vh;
     }
 
     .jumbotron .intro-text {
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 28px;
+        font-size: 42px;
         font-style: italic;
         line-height: 40px;
-        padding-top: 200px;
+        padding-top: 290px;
         padding-bottom: 200px;
         padding-left: 106px;
     }
