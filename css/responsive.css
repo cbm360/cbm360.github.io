@@ -71,7 +71,7 @@
 
     .jumbotron {
         max-height: 100vh;
-        min-height: 100vh;
+        min-height: 400px;
     }
 
     .jumbotron .intro-text {
