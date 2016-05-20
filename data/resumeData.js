@@ -39,8 +39,7 @@
                 "children": [
                     {"name": "Vehicle fleet expansion"},
                     {"name": "Operational hub location evaluation"},
-                    {"name": "Executive Team annual strategic planning"},
-                    {"name": "New Product Development"}
+                    {"name": "Executive Team annual strategic planning"}
                 ]
             },
             {
@@ -68,7 +67,8 @@
                 "children": [
                     {"name": "Scope of Work Definition"},
                     {"name": "Service Level Agreement Oversight"},
-                    {"name": "Price Negotiation"}
+                    {"name": "Price Negotiation"},
+					{"name": "Transportation Management"}
                 ]
             }
         ]
@@ -81,38 +81,23 @@
                 "children": [
                     {"name": "d3"},
                     {"name": "jQuery"},
-                    {"name": "QUnit"},
                     {"name": "KnockoutJS"},
-                    {"name": "Aurelia"},
                     {"name": "EXTJS"},
                     {"name": "MapBox/Leaflet"},
                     {"name": "MapQuest"},
-                    {"name": "NodeJS"},
-                    {"name": "ExpressJS"},
+                    {"name": "Google Maps"}
                 ]
             },
-            {"name": "Ruby on Rails"},
             {
             "name": "Web",
                 "children": [
                     {"name": "HTML5"},
                     {"name": "CSS3"},
-                    {"name": "SASS"},
                     {"name": "Bootstrap"},
                     {"name": "Chrome Dev Tools"}
                 ]
             },
-            "name": "Version Control",
-                "children": [
-                    {"name": "GIT"},
-                ]
-            },
-            "name": "Build Tool",
-                "children": [
-                    {"name": "Gulp"},
-                    {"name": "Grunt"},
-                ]
-            },
+            {"name": "GIT"},
 			{
                 "name": "ALM Software",
                 "children": [
@@ -124,7 +109,6 @@
                 "children": [
                     {"name": "Word"},
 					{"name": "Excel"},
-                    {"name": "PowerPivot"},
 					{"name": "PowerPoint"},
 					{"name": "Visio"},
 					{"name": "Project"},
@@ -136,7 +120,7 @@
                 "children": [
                     {"name": "SQL"},
                     {"name": "MongoDB"},
-					{"name": "SQLite"}
+					{"name": "MySQL"}
                 ]
             }
         ]
