@@ -58,7 +58,7 @@
     }
 }
 
-@media(min-width:767px) {
+@media screen and (min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -162,7 +162,7 @@
     }
 }
 
-@media(min-width:992px) {
+@media screen and (min-width:992px) {
     .jumbotron {
         max-height: 100vh;
         min-height: 600px;
@@ -193,10 +193,12 @@
     }
 }
 
-@media(min-width:1200px) {
+@media screen and (min-width:1200px) {
     .jumbotron {
         max-height: 100vh;
-        min-height: 800px;
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .timeline>li {
