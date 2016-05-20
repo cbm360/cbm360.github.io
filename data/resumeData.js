@@ -12,7 +12,7 @@
 					{"name": "Sprint Planning"},
 					{"name": "Daily Stand-ups"},
                     {"name": "Retrospectives"},
-					{"name": "Sprint Demos"}					
+					{"name": "Sprint Demos"}
                 ]
             },
             {
@@ -39,7 +39,8 @@
                 "children": [
                     {"name": "Vehicle fleet expansion"},
                     {"name": "Operational hub location evaluation"},
-                    {"name": "Executive Team annual strategic planning"}
+                    {"name": "Executive Team annual strategic planning"},
+                    {"name": "New Product Development"}
                 ]
             },
             {
@@ -49,7 +50,7 @@
 					{"name": "Sales team BI"},
 					{"name": "Vehicle asset allocation team BI"},
 					{"name": "Consolidated executive dashboard"},
-					{"name": "Sprint velocity reporting"}		
+					{"name": "Sprint velocity reporting"}
                 ]
             },
             {
@@ -67,8 +68,7 @@
                 "children": [
                     {"name": "Scope of Work Definition"},
                     {"name": "Service Level Agreement Oversight"},
-                    {"name": "Price Negotiation"},
-					{"name": "Transportation Management"}
+                    {"name": "Price Negotiation"}
                 ]
             }
         ]
@@ -81,23 +81,38 @@
                 "children": [
                     {"name": "d3"},
                     {"name": "jQuery"},
+                    {"name": "QUnit"},
                     {"name": "KnockoutJS"},
+                    {"name": "Aurelia"},
                     {"name": "EXTJS"},
                     {"name": "MapBox/Leaflet"},
                     {"name": "MapQuest"},
-                    {"name": "Google Maps"}
+                    {"name": "NodeJS"},
+                    {"name": "ExpressJS"},
                 ]
             },
+            {"name": "Ruby on Rails"},
             {
             "name": "Web",
                 "children": [
                     {"name": "HTML5"},
                     {"name": "CSS3"},
+                    {"name": "SASS"},
                     {"name": "Bootstrap"},
                     {"name": "Chrome Dev Tools"}
                 ]
             },
-            {"name": "GIT"},
+            "name": "Version Control",
+                "children": [
+                    {"name": "GIT"},
+                ]
+            },
+            "name": "Build Tool",
+                "children": [
+                    {"name": "Gulp"},
+                    {"name": "Grunt"},
+                ]
+            },
 			{
                 "name": "ALM Software",
                 "children": [
@@ -109,6 +124,7 @@
                 "children": [
                     {"name": "Word"},
 					{"name": "Excel"},
+                    {"name": "PowerPivot"},
 					{"name": "PowerPoint"},
 					{"name": "Visio"},
 					{"name": "Project"},
@@ -120,7 +136,7 @@
                 "children": [
                     {"name": "SQL"},
                     {"name": "MongoDB"},
-					{"name": "MySQL"}
+					{"name": "SQLite"}
                 ]
             }
         ]
