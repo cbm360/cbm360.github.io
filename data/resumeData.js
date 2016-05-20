@@ -39,7 +39,8 @@
                 "children": [
                     {"name": "Vehicle fleet expansion"},
                     {"name": "Operational hub location evaluation"},
-                    {"name": "Executive Team annual strategic planning"}
+                    {"name": "Executive Team annual strategic planning"},
+                    {"name": "New Product Development"}
                 ]
             },
             {
@@ -67,8 +68,7 @@
                 "children": [
                     {"name": "Scope of Work Definition"},
                     {"name": "Service Level Agreement Oversight"},
-                    {"name": "Price Negotiation"},
-					{"name": "Transportation Management"}
+                    {"name": "Price Negotiation"}
                 ]
             }
         ]
@@ -77,28 +77,40 @@
         "name": "Technical Skills",
         "children": [
             {
-            "name": "JavaScript",
+                "name": "JavaScript",
                 "children": [
                     {"name": "d3"},
                     {"name": "jQuery"},
+                    {"name": "QUnit"},
                     {"name": "KnockoutJS"},
+                    {"name": "Aurelia"},
                     {"name": "EXTJS"},
                     {"name": "MapBox/Leaflet"},
                     {"name": "MapQuest"},
-                    {"name": "Google Maps"}
+                    {"name": "NodeJS"},
+                    {"name": "ExpressJS"}
                 ]
             },
+            {"name": "Ruby on Rails"},
             {
-            "name": "Web",
+                "name": "Web",
                 "children": [
                     {"name": "HTML5"},
                     {"name": "CSS3"},
+                    {"name": "SASS"},
                     {"name": "Bootstrap"},
                     {"name": "Chrome Dev Tools"}
                 ]
             },
             {"name": "GIT"},
 			{
+                "name": "Build Tools",
+                "children": [
+                    {"name": "Grunt"},
+                    {"name": "Gulp"}
+                ]
+            },
+            {
                 "name": "ALM Software",
                 "children": [
                     {"name": "Visual Studio Online"}
@@ -110,6 +122,7 @@
                     {"name": "Word"},
 					{"name": "Excel"},
 					{"name": "PowerPoint"},
+                    {"name": "PowerPivot"},
 					{"name": "Visio"},
 					{"name": "Project"},
 					{"name": "Visual Studio"}
@@ -118,9 +131,16 @@
             {
                 "name": "Database",
                 "children": [
-                    {"name": "SQL"},
+                    {"name": "SQL Server"},
                     {"name": "MongoDB"},
-					{"name": "MySQL"}
+					{"name": "SQLite"}
+                ]
+            },
+            {
+                "name": "Mobile",
+                "children": [
+                    {"name": "Phone Gap"},
+                    {"name": "Ionic"}
                 ]
             }
         ]

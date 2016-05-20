@@ -2,7 +2,7 @@ $(function () {
     var margin = {top: 10, right: 75, bottom: 10, left: 75},
         divWidth = $('#treeResume').width(),
         width = divWidth - margin.right - margin.left,
-        height = 600 - margin.top - margin.bottom;
+        height = 800 - margin.top - margin.bottom;
 
     var minRadius = 4.5,
         maxRadius = 10,
@@ -42,7 +42,8 @@ $(function () {
 
         click(root.children[1]);
         click(root.children[1].children[0]);
-        click(root.children[1].children[3]);
+        click(root.children[1].children[4]);
+        click(root.children[1].children[8]);
 
         update(root);
     });
