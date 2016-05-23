@@ -22,7 +22,7 @@
     }
 
     .jumbotron .intro-text {
-        font-size: 14px;
+        font-size: 12px;
         padding-top: 50px;
     }
 
@@ -53,7 +53,6 @@
 
 @media screen and (min-width: 500px) {
     .jumbotron {
-
         max-height: 400px;
     }
 }
@@ -70,26 +69,15 @@
     }
 
     .jumbotron {
-        max-height: 100vh;
+        max-height: 515px;
         min-height: 400px;
     }
 
     .jumbotron .intro-text {
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 42px;
-        font-style: italic;
-        line-height: 60px;
-        padding-top: 290px;
+        font-size: 28px;
+        line-height: 40px;
         padding-bottom: 200px;
         padding-left: 106px;
-    }
-
-    .jumbotron .intro-text .intro-heading {
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
     }
 
     .navbar-default {
@@ -124,6 +112,10 @@
 
     .navbar-default.navbar-shrink .nav li a {
         color: #222;
+    }
+
+    #navName {
+        font-size: 1.4em;
     }
 
     .timeline:before {
@@ -166,6 +158,24 @@
     .jumbotron {
         max-height: 100vh;
         min-height: 600px;
+    }
+
+    .jumbotron .intro-text {
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 42px;
+        font-style: italic;
+        line-height: 60px;
+        padding-top: 290px;
+        padding-bottom: 200px;
+        padding-left: 106px;
+    }
+
+    .jumbotron .intro-text .intro-heading {
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
     }
 
     .timeline>li {
