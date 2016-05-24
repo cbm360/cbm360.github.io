@@ -11,6 +11,10 @@
         font-size: 16px;
     }
 
+    .navbar-default .nav li a {
+        color: #777;
+    }
+
     section h3.section-subheading {
         margin-bottom: 25px;
     }
@@ -38,6 +42,12 @@
         font-size: 1.5em;
     }
 
+}
+
+@media screen and (max-width: 845px) {
+    .navbar-default .nav li a {
+        color: #777;
+    }
 }
 
 @media screen and (min-width: 402px) {
@@ -111,7 +121,7 @@
     }
 
     .navbar-default.navbar-shrink .nav li a {
-        color: #222;
+        color: #777;
     }
 
     #navName {
@@ -161,21 +171,11 @@
     }
 
     .jumbotron .intro-text {
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 42px;
-        font-style: italic;
         line-height: 60px;
         padding-top: 290px;
         padding-bottom: 200px;
         padding-left: 106px;
-    }
-
-    .jumbotron .intro-text .intro-heading {
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
     }
 
     .timeline>li {

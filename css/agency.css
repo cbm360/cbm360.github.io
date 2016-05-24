@@ -169,6 +169,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.nav .navbar-nav .navbar-right li a {
+    color: #777;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #fff;
