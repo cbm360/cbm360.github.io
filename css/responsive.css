@@ -182,6 +182,10 @@
         padding-left: 106px;
     }
 
+    #navName {
+        font-size: 1.7em;
+    }
+
     .timeline>li {
         min-height: 150px;
     }
