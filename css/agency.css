@@ -169,6 +169,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+/*
+ * Navbar
+*/
+
 .nav .navbar-nav .navbar-right li a {
     color: #777;
 }
@@ -232,6 +236,51 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #16EA1A;
+}
+
+#navName {
+    font-size: 1.7em;
+}
+
+#navEducation {
+    font-size: .7em;
+    font-family: sans-serif;
+}
+
+/*
+ * Jumbotron
+*/
+.jumbotron {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-lg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    max-height: 100vh;
+}
+
+.jumbotron .intro-text {
+    padding-top: 20%;
+    padding-left: 14%
+    max-height: 100vh;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.jumbotron .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
 }
 
 header {
@@ -374,6 +423,26 @@ section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+}
+
+.portfolio-sub-list {
+    list-style: none;
+}
+
+.ul-no-bullet {
+    list-style: none;
+}
+
+.portfolio-section {
+    margin-bottom: 50px;
+}
+
+.portfolio-section-details{
+    margin-left: 10px;
+}
+
+.portfolio-img {
+    width: 100%;
 }
 
 #portfolio *, #about * {
@@ -634,6 +703,15 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+
+/*
+/* Portfolio
+*/
+
+.portfolio-modal-title {
+    text-align: center;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -709,6 +787,58 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+
+/*
+/* Experience
+*/
+#experience {
+    padding: 80px 0 0;
+}
+
+#timelineResume {
+    font-size: 12px;
+    background-color: #fff;
+}
+
+#timelineResume .row {
+    padding: 2.6em 0 2em 0;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+#treeResume {
+    background-color: #fff;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font: 12px sans-serif;
+    overflow-x: auto;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+.padding-left-11 {
+    padding-left: 11px;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
 }
 
 ::-moz-selection {
