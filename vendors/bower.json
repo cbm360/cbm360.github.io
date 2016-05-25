@@ -1,0 +1,24 @@
+{
+  "name": "camronmoore-io",
+  "homepage": "https://github.com/cbm360/cbm360.github.io",
+  "authors": [
+    "Camron Moore <camronbmoore@gmail.com>"
+  ],
+  "description": "personal website",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
