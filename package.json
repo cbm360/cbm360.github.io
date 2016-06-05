@@ -1,0 +1,25 @@
+{
+  "name": "camronmoore-io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbm360/cbm360.github.io.git"
+  },
+  "author": "Camron Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbm360/cbm360.github.io/issues"
+  },
+  "homepage": "https://github.com/cbm360/cbm360.github.io#readme"
+}

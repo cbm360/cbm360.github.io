@@ -26,6 +26,8 @@ $(function () {
         root.x0 = height / 2;
         root.y0 = 0;
 
+        update(root);
+
         function collapse(d) {
             if (d.children) {
                 d._children = d.children;
@@ -44,8 +46,6 @@ $(function () {
         click(root.children[1].children[0]);
         click(root.children[1].children[4]);
         click(root.children[1].children[8]);
-
-        update(root);
     });
 
     var tree = d3.layout.tree()
@@ -61,7 +61,7 @@ $(function () {
             links = tree.links(nodes);
 
         // Normalize for fixed-depth.
-        nodes.forEach(function(d) { d.y = d.depth * 180; });
+        nodes.forEach(function(d) { d.y = d.depth * (width/4.5); });
 
         // Update the nodes…
         var node = svg.selectAll("g.node")
