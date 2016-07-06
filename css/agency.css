@@ -262,6 +262,7 @@ fieldset[disabled] .btn-xl.active {
     background-size: cover;
     -o-background-size: cover;
     max-height: 100vh;
+    max-width: 100vw;
 }
 
 .jumbotron .intro-text {

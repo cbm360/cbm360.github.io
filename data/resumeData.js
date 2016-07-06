@@ -84,6 +84,7 @@
                     {"name": "QUnit"},
                     {"name": "KnockoutJS"},
                     {"name": "Aurelia"},
+                    {"name": "AngularJS"},
                     {"name": "EXTJS"},
                     {"name": "MapBox/Leaflet"},
                     {"name": "MapQuest"},
