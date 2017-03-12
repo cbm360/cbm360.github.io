@@ -59,7 +59,7 @@
                     {"name": "Mentorship"},
                     {"name": "Team Dynamics"},
                     {"name": "Team Productivity"},
-					{"name": "Servant Leadership"}
+					          {"name": "Servant Leadership"}
                 ]
             },
 			{
